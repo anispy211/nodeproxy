@@ -5,7 +5,7 @@ const app = express();
 
 // CORS configuration
 const whitelist = [
-  'http://localhost:63212', // Allow localhost (or adjust to your actual port)
+  'http://localhost:63947', // Allow localhost (or adjust to your actual port)
   'https://wingwin211.web.app/', // Allow your production domain
 ];
 
