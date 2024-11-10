@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 
 app.get('/proxy', async (req, res) => {
   try {
-    const response = await axios.get('https://opentdb.com/api.php?amount=10&category=22&difficulty=easy&type=multiple');
+    const response = await axios.get('https://opentdb.com/api.php?amount=5&category=22&difficulty=easy&type=multiple');
     res.json(response.data);
   } catch (error) {
     console.error("Error fetching data:", error);
